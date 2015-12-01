@@ -1,0 +1,37 @@
+Source: pyramid-redis-sessions
+Section: python
+Priority: optional
+Homepage: https://github.com/ericrasmussen/pyramid_redis_sessions
+Build-Depends:
+ debhelper (>= 9),
+ python-all (>= 2.7),
+ python3-all (>= 3.3),
+ dh-python,
+ python-redis (>= 2.4.11),
+ python3-redis (>= 2.4.11),
+ python-pyramid (>= 1.3),
+ python3-pyramid (>= 1.3),
+Maintainer: Julien Cristau <julien.cristau@logilab.fr>
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.3
+
+Package: python-pyramid-redis-sessions
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python:Depends}
+Description: Pyramid web framework session factory backed by Redis
+ pyramid_redis_sessions is a server-side session library for the Pyramid Web
+ Application Development Framework, using Redis for storage. This library
+ implements the Pyramid ISession interface.
+
+Package: python3-pyramid-redis-sessions
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends}
+Description: Pyramid web framework session factory backed by Redis (python3 version)
+ pyramid_redis_sessions is a server-side session library for the Pyramid Web
+ Application Development Framework, using Redis for storage. This library
+ implements the Pyramid ISession interface.

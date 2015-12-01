@@ -1,0 +1,5 @@
+pyramid-redis-sessions (1.0.1-1~0) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Tue, 01 Dec 2015 15:14:38 +0100
